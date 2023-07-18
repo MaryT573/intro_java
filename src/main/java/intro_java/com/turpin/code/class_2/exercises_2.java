@@ -1,4 +1,4 @@
-package intro_java.com.turpin.code;
+package intro_java.com.turpin.code.class_2;
 /****************************************************************************
  * <b>Title:</b> Test.java
  * <b>Project:</b> lib
@@ -13,6 +13,10 @@ package intro_java.com.turpin.code;
  *  
  ****************************************************************************/
 public class exercises_2 {
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		count();
 	}

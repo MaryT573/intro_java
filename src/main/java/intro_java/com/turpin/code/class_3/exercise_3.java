@@ -1,4 +1,4 @@
-package intro_java.com.turpin.code;
+package intro_java.com.turpin.code.class_3;
 /****************************************************************************
  * <b>Title:</b> Test.java
  * <b>Project:</b> intro_java
@@ -12,7 +12,13 @@ package intro_java.com.turpin.code;
  * <b>updates:</b>
  *  
  ****************************************************************************/
-public class exercise_3 {
+
+public class exercise_3 {  
+	
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		int[] arr = new int[10];
 		
@@ -23,5 +29,5 @@ public class exercise_3 {
 		}
 		
 	}
-
 }
+	

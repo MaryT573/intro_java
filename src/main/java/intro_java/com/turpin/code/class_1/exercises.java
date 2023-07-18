@@ -1,4 +1,4 @@
-package intro_java.com.turpin.code;
+package intro_java.com.turpin.code.class_1;
 /****************************************************************************
  * <b>Title:</b> Test.java
  * <b>Project:</b> lib
