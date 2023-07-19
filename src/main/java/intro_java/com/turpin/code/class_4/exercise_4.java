@@ -1,10 +1,5 @@
 package intro_java.com.turpin.code.class_4;
 
-import java.util.Map;
-import java.util.NavigableMap;
-import java.util.LinkedHashMap;
-import java.util.Collections;
-import java.util.List;
 /****************************************************************************
  * <b>Title:</b> Test.java
  * <b>Project:</b> intro_java
@@ -20,10 +15,17 @@ import java.util.List;
  ****************************************************************************/
 
 class exercise_4 {
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
+		// instantiates states and people and calls their methods
 		States states = new States();
 		People people = new People();
-		states.reverse();
+		states.ordered();
+		states.reversed();
+		people.random_order();
 	}
 }
 
