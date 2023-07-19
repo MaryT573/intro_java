@@ -18,8 +18,13 @@ import java.util.*;
  ****************************************************************************/
 
 class States {
+	/**
+	 * 
+	 * @return
+	 */
 	public TreeMap<String, String> create()
 	{
+		// create arrays for states and state codes
 		final String[] NAMES = {
 	            "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia",
 	            "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland",
@@ -34,28 +39,30 @@ class States {
 		};
 		
 		int counter = 0;
-		
+		// create empty treemap
 		TreeMap<String, String> s = new TreeMap<String, String>();
-		
+		// loops through the arrays and puts them in the map
 		while (counter < 50) {
 			s.put(CODES[counter], NAMES[counter]);
 			counter++;
 		}
-		
+		//returns map
 		return s;
 	}
 	
 	public void reversed() 
 	{
+		//creates new treemap
 		TreeMap<String, String> s = create();
-		
+		//creates navigable map and calls descending map which reverses the og map
 		NavigableMap <String, String> nmap = s.descendingMap();
-		
+		// prints
 		System.out.println(nmap);
 	}
 	
 	public void ordered()
 	{
+		//calls ordered map and prints
 		TreeMap<String, String> s = create();
 		System.out.println(s);
 	}
