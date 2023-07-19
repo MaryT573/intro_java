@@ -1,6 +1,5 @@
 package intro_java.com.turpin.code.class_4;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /****************************************************************************
  * <b>Title:</b> Test.java
