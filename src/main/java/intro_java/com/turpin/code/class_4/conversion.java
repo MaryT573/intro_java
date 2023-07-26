@@ -4,7 +4,7 @@ import java.util.*;
 /****************************************************************************
  * <b>Title:</b> Test.java
  * <b>Project:</b> intro_java
- * <b>Description:</b> CHANGE ME!!
+ * <b>Description:</b> 
  * <b>Copyright:</b> Copyright (c) 2023
  * <b>Company:</b> Silicon Mountain Technologies
  * 
@@ -17,7 +17,8 @@ import java.util.*;
 
 class Conversion {
 	/**
-	 * 
+	 * the conversions class creates a string array and then converts it to
+	 * an List and prints the resulting List
 	 */
 	public void change()
 	{

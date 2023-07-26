@@ -6,7 +6,7 @@ import java.util.*;
 /****************************************************************************
  * <b>Title:</b> Test.java
  * <b>Project:</b> intro_java
- * <b>Description:</b> CHANGE ME!!
+ * <b>Description:</b> 
  * <b>Copyright:</b> Copyright (c) 2023
  * <b>Company:</b> Silicon Mountain Technologies
  * 
@@ -19,7 +19,9 @@ import java.util.*;
 
 class States {
 	/**
-	 * 
+	 * The States class creates a treemap of states and state codes, in reversed it uses
+	 * a NavigableMap map to reverse the og treemap. Ordered calls the ordered map and prints
+	 * it
 	 * @return
 	 */
 	public TreeMap<String, String> create()
