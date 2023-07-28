@@ -1,5 +1,4 @@
 package intro_java.com.turpin.code.class_4;
-import java.util.*;
 
 /****************************************************************************
  * <b>Title:</b> Test.java
@@ -15,18 +14,21 @@ import java.util.*;
  *  
  ****************************************************************************/
 
-class Conversion {
+class Exercise_4 {
 	/**
-	 * the conversions class creates a string array and then converts it to
-	 * an List and prints the resulting List
+	 * Instantiates the instances of States, People, and Conversion and runs their 
+	 * methods
+	 * @param args
 	 */
-	public void change()
-	{
-		//declare string array
-		String[] arr = {"one", "two", "three"};
-		//converts array to string list
-		List<String> convert = Arrays.asList(arr);
-		//print
-		System.out.println(convert);
-	}	
+	public static void main(String[] args) {
+		// instantiates states and people and calls their methods
+		State commonwealth = new State();
+		Person people = new Person();
+		Conversion convert = new Conversion();
+		commonwealth.ordered();
+		commonwealth.reversed();
+		people.random_order();
+		convert.change();
+	}
 }
+

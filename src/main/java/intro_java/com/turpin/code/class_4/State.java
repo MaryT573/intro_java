@@ -17,12 +17,12 @@ import java.util.*;
  *  
  ****************************************************************************/
 
-class States {
+class State {
 	/**
 	 * The States class creates a treemap of states and state codes, in reversed it uses
 	 * a NavigableMap map to reverse the og treemap. Ordered calls the ordered map and prints
 	 * it
-	 * @return
+	 * @return Treemap <string, string>
 	 */
 	public TreeMap<String, String> create()
 	{
